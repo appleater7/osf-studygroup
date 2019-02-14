@@ -5,13 +5,7 @@ package study;
  * 콘솔에 "베스킨라빈스31"을 출력하시오!
  * (단, 메인에는 변수선언을 하면 안된다.)
  */
-<<<<<<< HEAD
+
 public class B14First {
 
-	
-	
-=======
-public class B14First {	
->>>>>>> branch 'master' of https://github.com/appleater7/osf-studygroup.git
-	
 }
