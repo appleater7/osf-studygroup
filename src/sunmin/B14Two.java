@@ -13,12 +13,13 @@ public class B14Two {
 	String name = "";
 	
 	B14Two(int abc, String name){
-		System.out.println();
+		System.out.println("abc : "+abc);
+		System.out.println("name : "+name);
 		
 	}
 	
 	public static void main(String[] args) {
-		
+		B14Two bt = new B14Two(2,"4");
 	}
 	
 	
