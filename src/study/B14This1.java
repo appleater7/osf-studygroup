@@ -1,4 +1,4 @@
-package kangyoungjun;
+package study;
 /*
  *  이것(This) 
  *  1. 본 문제는 changeStr 메서드에만 코딩한다.
