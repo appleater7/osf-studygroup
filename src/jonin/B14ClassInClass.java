@@ -12,4 +12,15 @@ public class B14ClassInClass {
  *  HINT = static을 class 선언에 활용하시오~;
  * 
 */
+	
+	
+	static class B14ClassInClass2{
+		int a=1;
+	}
+	public static void main(String[] args) {
+		B14ClassInClass2 cc=new B14ClassInClass2();
+		System.out.println(cc.a);
+	}
+	
+	
 }

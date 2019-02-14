@@ -7,5 +7,16 @@ package jonin;
  */
 
 public class B14First {
-
+	int a= 0;
+	String str ="";
+	
+	public static void main(String[] args) {
+		B14First first= new B14First();
+		first.a=31;
+		first.str="베스킨라빈스";
+		System.out.println(first.str+first.a);
+	}
+	
+	
+	
 }

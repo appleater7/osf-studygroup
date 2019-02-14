@@ -9,5 +9,16 @@ package jonin;
  * (단, 메인메소드에서는 한번의 ';' 밖에 사용할 수 없다.
  */
 public class B14Two {
+	int abc=10;
+	String name="";
+	B14Two(String s,int a){
+		abc=a;
+		name =s;
+		System.out.println(this.name+this.abc);
+	}
+	public static void main(String[] args) {
+		B14Two two= new B14Two("4", 2);
+	}
+	
 	
 }
