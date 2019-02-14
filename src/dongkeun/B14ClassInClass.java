@@ -8,4 +8,12 @@ public class B14ClassInClass {
  *  HINT = ㅅㅌㅌ;
  * 
 */
+	static class B14ClassInClass2 {
+		int a = 1;
+	}
+	
+	public static void main(String[] args) {
+		B14ClassInClass2 b14class2 = new B14ClassInClass2();
+		System.out.println(b14class2.a);
+	}
 }
