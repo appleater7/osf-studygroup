@@ -1,4 +1,4 @@
-package kangyoungjun;
+package dongkeun;
 /*
  * 클래스 영역에 int 형 변수 a(기본값0), String 형 변수 str(기본값"") 을 선언 및 초기화하고
  * 메인 메서드에 Feb14First 클래스를 참조하는 변수 first 를 통하여,
@@ -6,8 +6,5 @@ package kangyoungjun;
  * (단, 메인에는 변수선언을 하면 안된다.)
  */
 public class B14First {
-	
-	int a = 0;
-	String str;
 
 }
