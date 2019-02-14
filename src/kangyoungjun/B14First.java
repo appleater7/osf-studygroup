@@ -8,5 +8,5 @@ package kangyoungjun;
 public class B14First {
 
 	int a = 0;
-	String
+	
 }
