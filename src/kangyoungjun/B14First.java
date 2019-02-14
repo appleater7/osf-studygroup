@@ -6,7 +6,8 @@ package kangyoungjun;
  * (단, 메인에는 변수선언을 하면 안된다.)
  */
 public class B14First {
-
-	int a = 0;
 	
+	int a = 0;
+	String str;
+
 }
