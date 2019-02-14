@@ -1,4 +1,4 @@
-package study;
+package kangyoungjun;
 /*
  *  이것(This) 
  *  1. 본 문제는 메인 메서드에만 코딩한다.
@@ -16,15 +16,16 @@ public class B14This1 {
 	
 	String str = "이게 뭐야?";
 	
-	static String getStr() {
-		return "";
-	}
+	void This() {
+		System.out.println(this.str);
+	}	
 	
-	static void setStr(String str) {
-		System.out.println(str);
+	void changeThis(String str) {
+		this.str = str;
+		System.out.println(this.str);
 	}
 	
 	public static void main(String[] args) {
-				
+		
 	}
 }
