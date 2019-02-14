@@ -4,7 +4,7 @@ package study;
  * 수업시간에 배운것에 대한 예제 작성과 풀이실습을 통한 반복학습 
  * 
  * ▶ 과제 출제 및 네이밍 규칙
- * MMM(영어) + DD(숫자) + Name
+ * MMM(영어) + DD(숫자) + Name(제목)
  * 예시) Feb14RoomEscape
  * 
  * ▶ 과제 수행 규칙
