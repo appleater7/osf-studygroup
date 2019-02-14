@@ -9,7 +9,7 @@ public class B14ClassInClass {
  *  화이팅 입니당 ~!
  *  
  *  
- *  HINT = ㅅㅌㅌ;
+ *  HINT = static을 class 선언에 활용하시오~;
  * 
 */
 }
