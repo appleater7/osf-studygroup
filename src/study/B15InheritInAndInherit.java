@@ -4,8 +4,6 @@ package study;
 
 
 
-
-
 class GrandMother {
 	int age = 100; 
 	GrandMother(){
