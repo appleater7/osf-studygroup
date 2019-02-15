@@ -11,12 +11,9 @@ public class B14ClassInClass {
  *  
  *  HINT = static을 class 선언에 활용하시오~;
  * 
+ *
 */
-	public static void main(String[] args) {
-		
-		
-		
-	}
-	
+
+
 	
 }
