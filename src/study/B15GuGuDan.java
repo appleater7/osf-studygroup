@@ -12,5 +12,5 @@ Scanner 값은 두개로 받으시고
 
 public class B15GuGuDan {
 
-}
+
 }
