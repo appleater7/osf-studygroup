@@ -8,6 +8,7 @@ package study;
  *입력받은 값의 배열 주소를 출력 하세요. 
 
 Scanner 값은 두개로 받으시고
+배열의 인덱스에 저장은 순서대로 1X1...
 */
 
 public class B15GuGuDan {
