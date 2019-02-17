@@ -9,11 +9,22 @@ public class B14ClassInClass {
  *  화이팅 입니당 ~!
  *  
  *  
- *  HINT = static을 class 선언에 활용하시오~;
+ *  HINT = 그냥 답을 공개하고, 보면서 "이렇게도 할  수 있구나~"만 알아가는 목적으로 생각해요 ㅎㅎ
  * 
 */
+	
+	static class TwoClass{
+		int sNum = 2;
+		// 이 자리에서 System.out.println(); 과 같이 동작을 하는 코드는 사용하면 안됩니다.
+	}
 	public static void main(String[] args) {
-		System.out.println("왜인지는 모르겠는데 갑자기 안되고 있스니다....");
+		TwoClass tc = new TwoClass();
+		
+		System.out.println(tc.sNum);
+		
+		System.out.println("그냥 이렇게 class를 선언 할 수 있다~");
+		
+		
 		
 	}
 	

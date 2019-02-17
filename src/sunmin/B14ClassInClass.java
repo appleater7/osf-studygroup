@@ -13,7 +13,17 @@ public class B14ClassInClass {
  * 
  *
 */
-
+	
+	static class TwoClass{
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		
+		
+	}
 
 	
 }
