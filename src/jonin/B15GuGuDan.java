@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 출력한 값을 배열에 직업놓고 Scanner으로 값을 입력 받으면
  *입력받은 값의 배열 주소를 출력 하세요. 
 
-Scanner 값은 두개로 받으시고
+ Scanner 값은 두개로 받으시고
 */
 public class B15GuGuDan {
 	static void ggd(int a, int b) {
