@@ -30,23 +30,19 @@ public class B19StringMultiSearch {
 		System.out.println("검색할 단어를 입력하세요!");
 		String search = scan.nextLine();
 		String[] str = new String[search.length()];
-		for (int i = 0; i < search.length(); i++) {
-			str[i] = search.split(",")[i];
-		}
-//		int searchCount = 0;
+			str = search.split(",");
+		int searchCount = 0;
 		for (int i = 0; i < sa.strs.length; i++) {
 			for (int j = 0; j <str.length; j++) {
 				if (str[j].equals(sa.strs[i])) {
 					System.out.println("sa.strs[" + i + "] = " + sa.strs[i]);
-//					searchCount++;
-				} else {
-					System.out.println("찾으시는 값이 없습니다.");
-				}
+					searchCount++;
+				} 
 			}
 		}
-//		if (searchCount == 0) {
-//		System.out.println("찾으시는 값이 없습니다.");
-//		}
+		if (searchCount == 0) {
+		System.out.println("찾으시는 값이 없습니다.");
+		}
 
 		scan.close();
 	}
