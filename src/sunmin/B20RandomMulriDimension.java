@@ -66,7 +66,7 @@ public class B20RandomMulriDimension {
 				//System.out.println("numArray[" + i + "][" + j + "] : " + numArray[i][j]);
 
 			}
-		}
+		} 
 		
 		System.out.println(1);
 		numArray = sortArray(numArray);
