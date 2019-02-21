@@ -8,7 +8,48 @@ package kimbongkook;
  *
  * by/종인
  */
-
 public class B20RandomMulriDimension {
-
+	
+	public int cols = (int)(Math.random()*10)+1;
+	public int[][] exArray = new int[cols][];
+	
+	public boolean compare(int num) {
+		for(int i=0; i<exArray.length; i++) {
+			for(int j=0; j<exArray[i].length; j++) {
+				if(exArray[i][j]==0) return false;
+				
+				if(exArray[i][j]==num) return true;
+			}
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		B20RandomMulriDimension rmd = new B20RandomMulriDimension();
+		
+		int rows=0;
+		
+		for(int i=0; i<rmd.exArray.length; i++) {
+			rows=(int)(Math.random()*10)+1;
+			rmd.exArray[i] = new int[rows];
+		}
+		
+		int num=0;
+		
+		for(int i=0; i<rmd.exArray.length; i++) {
+			for(int j=0; j<rmd.exArray[i].length; j++) {
+				num = (int)(Math.random()*100)+1;
+				if(rmd.compare(num)) {
+					j--;
+				}else {
+					rmd.exArray[i][j]=num;
+				}
+			}
+		}
+		for(int i=0; i<rmd.exArray.length; i++) {
+			for(int j=0; j<rmd.exArray[i].length; j++) {
+				System.out.println("exArray["+i+"]["+j+"] = "+rmd.exArray[i][j]);
+			}
+		}
+	}
 }
