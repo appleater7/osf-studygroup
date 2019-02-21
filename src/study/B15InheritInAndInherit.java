@@ -5,12 +5,10 @@ package study;
 
 
 class GrandMother {
-	int age = 100; 
+	int age = 100;
 	GrandMother(){
 		System.out.println("나는 할머니 생성자!");
 	}
-
-
 }
 
 class Mother extends GrandMother{
