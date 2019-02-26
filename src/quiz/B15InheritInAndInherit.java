@@ -1,4 +1,4 @@
-package study;
+package quiz;
 // GrandMother class를 Mother가 상속을 받아서 "나는 할머니 생성자!"까지 console 창에 출력 하시오. 
 // p.s. 아주 간단합니다. 단 한 줄만 바꾸어 주면 됩니당 ~ (Extends)
 // BY 선민

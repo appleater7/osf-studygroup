@@ -1,4 +1,4 @@
-package study;
+package quiz;
 
 public class B14ClassInClass {
 /*

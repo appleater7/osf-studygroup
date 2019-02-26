@@ -1,4 +1,4 @@
-package study;
+package quiz;
 /*
  * 생성자의 활용
  * B14Two 의 멤버변수로 정수형 변수 abc 를 선언 및 10 으로 초기화 시키고, 

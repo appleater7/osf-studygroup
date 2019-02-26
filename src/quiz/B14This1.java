@@ -1,4 +1,4 @@
-package study;
+package quiz;
 /*
  *  이것(This) 
  *  1. 본 문제는 changeStr 메서드에만 코딩한다.(단, 1줄만 삽입)

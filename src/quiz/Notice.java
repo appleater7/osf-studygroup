@@ -1,4 +1,4 @@
-package study;
+package quiz;
 /* 
  * ▶ studygroup 목표
  * 수업시간에 배운것에 대한 예제 작성과 풀이실습을 통한 반복학습 

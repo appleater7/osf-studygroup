@@ -1,4 +1,4 @@
-package study;
+package quiz;
 
 /*
  * 수업시간에 했던 ClassArray입니다. 

@@ -1,4 +1,4 @@
-package study;
+package quiz;
 /*
  * 클래스 영역에 int 형 변수 a(기본값0), String 형 변수 str(기본값"") 을 선언 및 초기화하고
  * 메인 메서드에 B14First 클래스를 참조하는 변수 first 를 통하여,

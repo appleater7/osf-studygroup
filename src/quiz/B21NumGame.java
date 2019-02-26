@@ -1,4 +1,4 @@
-package study;
+package quiz;
 
 import java.util.ArrayList;
 

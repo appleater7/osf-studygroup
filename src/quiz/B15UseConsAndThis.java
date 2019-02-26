@@ -1,4 +1,4 @@
-package study;
+package quiz;
 
 /*
  * 아래의 코드에서 단 한 부분만 고쳐서 

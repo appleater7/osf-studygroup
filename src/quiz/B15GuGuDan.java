@@ -1,4 +1,4 @@
-package study;
+package quiz;
 
 /*	
  * 1단부터 9단(1X9,1X8,1X7... 역순으로) 까지 출력은 메소드로 하시고 
