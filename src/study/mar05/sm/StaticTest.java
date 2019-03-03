@@ -1,5 +1,5 @@
 package study.mar05.sm;
 
-public class Modifier {
+public class StaticTest {
 
 }
