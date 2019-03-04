@@ -7,7 +7,7 @@ package quiz;
  *               reqName(varchar2 - 100) 요청품목, reqCnt(number - 10) 요청수량, 
  *               reqDat(char - 8) 시스템 연월일, reqTim(char - 6) 시스템 시분초
  *               
- *  2. JAva : 	아래 4가지 클래스로 구분하여 코딩하시오
+ *  2. JAVA : 	아래 4가지 클래스로 구분하여 코딩하시오
  *  			기본적으로 db.board2 나 db.user 와 유사하게 진행하면 됩니다.
  *  			DBCon(DB접속), OrderBoardVO(DB 입출력 대응 할 수 있는 데이터타입), BoardService(연산 대응)
  *              Execute(실행 화면 및 실행)
