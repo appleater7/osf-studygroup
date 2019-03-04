@@ -2,7 +2,7 @@ package quiz;
 /*
  *  자신의 로컬PC 에 오라클을 설치하고 진행하시오
  *  1. DB : 이름 order_board
- *          컬럼 orderNum(기본키 발주번호), buyer(varchar2 - 100) 요청자, 
+ *          컬럼 orderNum(기본키 발주번호) 시퀀스 사용, buyer(varchar2 - 100) 요청자, 
  *          	 buyAdr(varchar2 - 1000) 요청자주소, 
  *               reqName(varchar2 - 100) 요청품목, reqCnt(number - 10) 요청수량, 
  *               reqDat(char - 8) 시스템 연월일, reqTim(char - 6) 시스템 시분초
