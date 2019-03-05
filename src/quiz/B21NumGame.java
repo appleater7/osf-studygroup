@@ -14,8 +14,8 @@ public class B21NumGame {
 		System.out.print("List의 Size를 입력 하세요 : ");
 		int num= scan.nextInt();
 		ArrayList<Integer> al= new ArrayList<>();
-		makeGame(al,num);  	// 랜덤의 숫자를 List에 삽입하는것
-		printList(al);		// 나온 숫자를 콘솔의 출력하는것 
+//		makeGame(al,num);  	// 랜덤의 숫자를 List에 삽입하는것
+//		printList(al);		// 나온 숫자를 콘솔의 출력하는것 
 		scan.close();
 	}
 }
