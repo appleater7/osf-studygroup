@@ -8,6 +8,7 @@ import java.util.Scanner;
  *입력받은 값의 배열 주소를 출력 하세요. 
 Scanner 값은 두개로 받으시고
 */
+
 //static은 main보다 먼저, 정의부에는 실행문을 쓸 수 없다. 정의만
 public class GuGudan {
 	static int[][] a = new int [9][9];
