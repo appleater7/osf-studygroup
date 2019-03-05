@@ -16,7 +16,7 @@ public class B15GuGuDan {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("문제를 좀 더 자세히 내주세요. 의도를 모르겠네요?");
+		System.out.println("문제를 좀 더 자세히 내주세요. 의도를 모르겠네요? 종인씨?");
 	}
 
 }
