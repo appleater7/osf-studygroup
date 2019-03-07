@@ -1,4 +1,4 @@
-package quiz;
+package Kyutaek;
 /*
  *  이것(This) 
  *  1. 본 문제는 changeStr 메서드에만 코딩한다.(단, 1줄만 삽입)
@@ -13,7 +13,7 @@ public class B14This1 {
 	String str = "이게 뭐야?";
 	
 	void changeStr() {
-		
+		this.str = "이것은 사과!";
 	}
 	
 	public static void main(String[] args) {
