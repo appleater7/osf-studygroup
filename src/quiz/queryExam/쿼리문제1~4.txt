@@ -1,0 +1,31 @@
+﻿create table prob_1 (
+p_num number(2,0) primary key,
+p_name varchar2(30) not null,
+p_age number(2,0) not null,
+p_desc varchar2(30) not null);
+
+--drop table prob_1;
+create sequence seq_prob_1_num;
+--drop sequence seq_prob_1_num;
+
+insert into prob_q (p_num,p_name,p_age,p_desc)
+values(seq_prob_1_num.nextval,'김선민',26,'ASMR');
+
+insert into prob_q (p_num,p_name,p_age,p_desc)
+values(seq_prob_1_num.nextval,'이수빈',17,'목소리가 좋음');
+
+insert into prob_q (p_num,p_name,p_age,p_desc)
+values(seq_prob_1_num.nextval,'김봉국',25,'수업을 열심히 들음');
+
+insert into prob_q (p_num,p_name,p_age,p_desc)
+values(seq_prob_1_num.nextval,'선생님',35,'수업을 잘하심');
+
+insert into prob_q (p_num,p_name,p_age,p_desc)
+values(seq_prob_1_num.nextval,'채희주',28,'키가 큼');
+
+-- 1. 스물 이상 이면서 30이하인 사람을 출력하시오. (select)
+-- 2. p_desc에 "수업"이라는 단어가 들어있는 row를 모두 출력하시오 (select + like +  %% )
+-- 3. 나이의 평균(avg), 나이의 합(sum), 나이의 최댓값(max), 나이의 최솟값(min), 
+--   총 row의 갯 수 (count)를 출력 하시오. 
+-- 4. 서브 쿼리문과 window 함수를 사용하여, 평균 나이 이상인 사람들의 row만을 출력하시오. 
+

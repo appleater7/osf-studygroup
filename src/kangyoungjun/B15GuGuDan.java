@@ -12,10 +12,26 @@ Scanner 값은 두개로 받으시고
 */
 
 public class B15GuGuDan {
-	
-	int dan = 0;
-	int su = 0;
 
+	static void guGuDan(int frtInt, int backInt) {
+		for(int i = 1; i <= frtInt; i++) {
+			int sSu = 1;
+			for(; sSu < backInt; sSu++) {
+				System.out.print(i + " X " + sSu + " = " + (i * sSu) + ", ");
+				if(i * sSu < 10) {
+					System.out.print(" ");
+				}
+				if(i * sSu < 100) {
+					System.out.print(" ");
+				}
+				if(i < 10) {
+					System.out.print(" ");
+				}
+			}
+			System.out.println(i + " X " + sSu + " = " + (i * sSu));
+		}
+	}
+	
 	void guGuDanOutput() {
 		
 		for (int i = 0; i < 10; i++) {
