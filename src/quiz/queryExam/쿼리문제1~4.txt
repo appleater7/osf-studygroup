@@ -8,19 +8,19 @@ p_desc varchar2(30) not null);
 create sequence seq_prob_1_num;
 --drop sequence seq_prob_1_num;
 
-insert into prob_q (p_num,p_name,p_age,p_desc)
+insert into prob_1 (p_num,p_name,p_age,p_desc)
 values(seq_prob_1_num.nextval,'김선민',26,'ASMR');
 
-insert into prob_q (p_num,p_name,p_age,p_desc)
+insert into prob_1 (p_num,p_name,p_age,p_desc)
 values(seq_prob_1_num.nextval,'이수빈',17,'목소리가 좋음');
 
-insert into prob_q (p_num,p_name,p_age,p_desc)
+insert into prob_1 (p_num,p_name,p_age,p_desc)
 values(seq_prob_1_num.nextval,'김봉국',25,'수업을 열심히 들음');
 
-insert into prob_q (p_num,p_name,p_age,p_desc)
+insert into prob_1 (p_num,p_name,p_age,p_desc)
 values(seq_prob_1_num.nextval,'선생님',35,'수업을 잘하심');
 
-insert into prob_q (p_num,p_name,p_age,p_desc)
+insert into prob_1 (p_num,p_name,p_age,p_desc)
 values(seq_prob_1_num.nextval,'채희주',28,'키가 큼');
 
 -- 1. 스물 이상 이면서 30이하인 사람을 출력하시오. (select)
