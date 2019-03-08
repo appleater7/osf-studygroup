@@ -2,7 +2,7 @@
 p_num number(2,0) primary key,
 p_name varchar2(30) not null,
 p_age number(2,0) not null,
-p_desc varchar2(30) not null);
+p_desc varchar2(60) not null);
 
 --drop table prob_1;
 create sequence seq_prob_1_num;
