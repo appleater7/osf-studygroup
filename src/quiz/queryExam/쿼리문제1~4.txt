@@ -60,6 +60,8 @@ where p2_num IN (1,2,3,4,5);
 select * from prob_2
 where p2_num not IN (1,2,3,4,5);
 
+select * from board_info where ui_num IN (select ui_num from board_info);
+
 select * from prob_2
 where p2_num between 3 and 6; --3과 6 포함.
 
