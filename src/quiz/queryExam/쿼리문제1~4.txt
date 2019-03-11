@@ -23,9 +23,70 @@ values(seq_prob_1_num.nextval,'선생님',35,'수업을 잘하심');
 insert into prob_1 (p_num,p_name,p_age,p_desc)
 values(seq_prob_1_num.nextval,'채희주',28,'키가 큼');
 
--- 1. 스물 이상 이면서 30이하인 사람을 출력하시오. (select)
+-- 1. 20 이상 이면서 30이하인 사람을 출력하시오. (select)
+-> selec * from prob_1 where p_age>=20 AND p_age <=30;
 -- 2. p_desc에 "수업"이라는 단어가 들어있는 row를 모두 출력하시오 (select + like +  %% )
+-> select * from prob_1 where p_desc like '%수업%';
 -- 3. 나이의 평균(avg), 나이의 합(sum), 나이의 최댓값(max), 나이의 최솟값(min), 
 --   총 row의 갯 수 (count)를 출력 하시오. 
+-> select avg(p_age), sum(p_age), max(p_age), min(p_age), count(1) from prob_1;
 -- 4. 서브 쿼리문과 window 함수를 사용하여, 평균 나이 이상인 사람들의 row만을 출력하시오. 
+-> select * from prob_1 where p_age >= (select avg(p_age) from prob_1);
+-------
 
+따로 쿼리문을 작성한 것은 아니고, 예제들 써본 것.
+CMD 창에서 오라클 키기.
+Sqlplus system/oracle 
+
+Sqlplus 계정/비밀번호 
+로도 접근 가능
+
+Select문 
+select p2_num from prob_2
+order by p2_num desc;
+
+select p2_name from prob_2
+where p2_name !='간디'; -- 부정을 뜻함.
+
+select p2_name from prob_2
+where p2_name <>'간디'; -- 부정을 뜻함.
+
+select p2_name from prob_2
+where p2_name ^='간디'; -- 부정을 뜻함.
+
+select * from prob_2
+where p2_num IN (1,2,3,4,5);
+
+select * from prob_2
+where p2_num not IN (1,2,3,4,5);
+
+select * from board_info where ui_num IN (select ui_num from board_info);
+
+select * from prob_2
+where p2_num between 3 and 6; --3과 6 포함.
+
+select * from prob_2
+where p2_num not between 3 and 6;
+
+select * from prob_2
+where p2_name like '_길%'; -- like에 언더 바를 넣고 싶을 때는 " \ (ESCAPE) " 사용하면 됨.
+
+select * from prob_2
+where p2_name like '%\_%' escape '\';
+
+select * from prob_2
+where p2_num IS NOT NULL; -- 모든 행이 출력 됨.
+
+select p2_num from prob_2 where p2_num IN (1,2,3)
+UNION --합집함 UNION ALL 은 중복을 제거하지 않은 값 까지도 출력함, UNION은 중복을 제거해서 출력함.
+select p2_num from prob_2 where p2_num IN (5,6);
+
+select p2_num from prob_2 where p2_num IN (1,2,3)
+MINUS --차집합
+select p2_num from prob_2 where p2_num IN (3,2);
+
+select p2_num from prob_2 where p2_num IN (1,2,3)
+intersect --교집합
+select p2_num from prob_2 where p2_num IN (3,2);
+
+select DISTINCT(ui_num) from board_info;  -- 중복을 제거함.
