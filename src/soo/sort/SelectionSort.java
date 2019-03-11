@@ -1,4 +1,4 @@
-package soo;
+package soo.sort;
 
 import java.util.Arrays;
 
