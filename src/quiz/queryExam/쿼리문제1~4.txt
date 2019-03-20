@@ -24,7 +24,7 @@ insert into prob_1 (p_num,p_name,p_age,p_desc)
 values(seq_prob_1_num.nextval,'채희주',28,'키가 큼');
 
 -- 1. 20 이상 이면서 30이하인 사람을 출력하시오. (select)
--> selec * from prob_1 where p_age>=20 AND p_age <=30;
+-> select * from prob_1 where p_age>=20 AND p_age <=30;
 -- 2. p_desc에 "수업"이라는 단어가 들어있는 row를 모두 출력하시오 (select + like +  %% )
 -> select * from prob_1 where p_desc like '%수업%';
 -- 3. 나이의 평균(avg), 나이의 합(sum), 나이의 최댓값(max), 나이의 최솟값(min), 
